@@ -19,7 +19,84 @@ body {
   width: 100%;
   height: 700px;
 }
+.about-section p{
+    font-size: 16px;line-height: 28px;
+}
+.costum-h3{
+    font-size: 40px;
+}
+#modelimgsld{
+    height: 266px;
+    width: 317px;
+    border-radius: 20px;
+    
+}
 
+.imgbox{
+    width: auto;
+    height: 300px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 320px){
+    #modelimgsld{
+        height: 300px;
+        width: 225px;
+        border-radius: 20px;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .font-size {
+      font-weight: 700;
+      font-size: 27px;
+    }
+    #modelimgsld{
+        height: 300px;
+        width: 270px;
+        border-radius: 20px;
+    }
+    .scrolImage {
+      width: 100%;
+      height: 477px;
+    }
+  }
+
+  @media only screen and (max-width: 480px){
+    .scrolImage {
+        width: 100%;
+        height: 477px;
+      }
+}
+@media only screen and (max-width: 800px){
+    #modelimgsld{
+        height: 300px;
+        width: 277px;
+        border-radius: 20px;
+}
+}
+@media only screen and (max-width: 900px){
+    #modelimgsld{
+        height: 300px;
+        width: 283px;
+        border-radius: 20px;
+}
+}
+
+@media only screen and (max-width: 1000px) {
+    .scrolimage {
+      height: auto;
+    }
+    #modelimgsld{
+        height: 300px;
+        width: 290px;
+        border-radius: 20px;
+}
+  }
 @media only screen and (min-width: 1000px) {
   .scrolImage {
     width: 100%;
@@ -27,24 +104,6 @@ body {
   }
 }
 
-@media only screen and (max-width: 380px) {
-  .font-size {
-    font-weight: 700;
-    font-size: 27px;
-  }
-  .scrolImage {
-    width: 100%;
-    height: 477px;
-  }
-}
-@media only screen and (max-width: 1000px) {
-  .scrolimage {
-    height: auto;
-  }
-}
-@media only screen and (max-width: 480px){
-    .scrolImage {
-        width: 100%;
-        height: 477px;
-      }
-}
+
+
+

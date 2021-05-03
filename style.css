@@ -23,9 +23,10 @@ body {
     font-size: 16px;line-height: 28px;
 }
 .costum-h3{
-    font-size: 40px;
+    font-size: 30px;
+
 }
-#modelimgsld{
+.modelimgsld{
     height: 266px;
     width: 317px;
     border-radius: 20px;
@@ -37,29 +38,38 @@ body {
     height: 300px;
 }
 
-
-
-
-
-
-
-@media only screen and (max-width: 320px){
-    #modelimgsld{
-        height: 300px;
-        width: 225px;
-        border-radius: 20px;
-    }
+html{
+  scroll-behavior: smooth;
 }
-@media only screen and (max-width: 380px) {
+
+
+
+
+
+@media only screen and (max-width: 340px){
+  .modelimgsld {
+    height: 267px;
+    width: 257px;
+    border-radius: 20px;
+  }
+}
+@media only screen and (max-width: 360px){
+  .modelimgsld {
+  height: 267px;
+  width: 257px;
+  border-radius: 20px;
+}
+}
+@media only screen and (max-width: 380px)and (min-width:361px) {
     .font-size {
       font-weight: 700;
       font-size: 27px;
     }
-    #modelimgsld{
-        height: 300px;
-        width: 270px;
-        border-radius: 20px;
-    }
+    .modelimgsld{
+      height: 263px;
+      width: 310px;
+      border-radius: 20px;
+  }
     .scrolImage {
       width: 100%;
       height: 477px;
@@ -72,36 +82,55 @@ body {
         height: 477px;
       }
 }
-@media only screen and (max-width: 800px){
-    #modelimgsld{
+@media only screen and (max-width: 420px)and (min-width:381px){
+  .modelimgsld{
+      height: 270px;
+      width: 350px;
+      border-radius: 20px;
+}
+}
+@media only screen and (max-width: 900px)and (min-width:800px){
+    .modelimgsld{
         height: 300px;
-        width: 277px;
+        width: 283px;
         border-radius: 20px;
 }
 }
-@media only screen and (max-width: 900px){
-    #modelimgsld{
+@media only screen and (max-width: 420px)and (min-width:381px){
+  .modelimgsld{
+      height: 270px;
+      width: 350px;
+      border-radius: 20px;
+}
+}
+@media only screen and (max-width: 900px)and (min-width:800px){
+    .modelimgsld{
         height: 300px;
         width: 283px;
         border-radius: 20px;
 }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px)and (min-width:900px) {
     .scrolimage {
       height: auto;
     }
-    #modelimgsld{
+    .modelimgsld{
         height: 300px;
         width: 290px;
         border-radius: 20px;
 }
   }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1000px)and (max-width: 1030px) {
   .scrolImage {
     width: 100%;
     height: 600px;
   }
+  .modelimgsld{
+    height: 300px;
+    width: 290px;
+    border-radius: 20px;
+}
 }
 
 

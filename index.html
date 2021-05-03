@@ -19,7 +19,7 @@
     />
   </head>
   <body class="bg-black">
-    <section class="header-section">
+    <section class="header-section " style="z-index: 9; position: fixed;background-color:black ; width:100% ;"  >
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -44,18 +44,18 @@
               <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                   <li class="nav-item active mr-4">
-                    <a class="nav-link text-white" href="#"
+                    <a class="nav-link text-white" href="#home"
                       >Home <span class="sr-only">(current)</span></a
                     >
                   </li>
                   <li class="nav-item mr-4">
-                    <a class="nav-link text-white" href="#">About</a>
+                    <a class="nav-link text-white" href="#about-us">About</a>
                   </li>
                   <li class="nav-item mr-4">
-                    <a class="nav-link text-white" href="#">Models</a>
+                    <a class="nav-link text-white" href="#models">Models</a>
                   </li>
                   <li class="nav-item mr-2">
-                    <a class="nav-link text-white" href="#">Contacts</a>
+                    <a class="nav-link text-white" href="#contact-us">Contacts</a>
                   </li>
                 </ul>
               </div>
@@ -64,38 +64,25 @@
         </div>
       </div>
     </section>
-    <section class="home-slider">
+    <section id="home" class="home-slider">
       <div id="chslider" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              src="images/slider images/image1.jpg"
-              class="scrolImage d-block w-100"
-              alt="..."
-            />
-          </div>
-          <div class="carousel-item">
-            <img
               src="images/slider images/image3.jpg"
-              class="scrolImage d-block w-100"
+              class="scrolImage img-fluid d-block w-100"
               alt="..."
             />
           </div>
-          <div class="carousel-item">
-            <img
-              src="images/slider images/image2.jpg"
-              class="scrolImage d-block w-100"
-              alt="..."
-            />
-          </div>
+          
         </div>
       </div>
     </section>
-    <section class="about-section pt-5 pb-5 text-center text-white">
+    <section id="about-us" class="about-section pt-5 pb-5 text-center text-white">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <h3 class="costum-h3 mt-4 mb-4 ">About us</h3>
+            <h3 class="costum-h3 mt-4 mb-4 text-dark">ABOUT US</h3>
             <p class="mb-5 font-weight-normal" >
               
               CURTAIN HOUSE We also known as Ashique curtain at Payyanangadi in Tirur ,malappuram kerala .
@@ -114,15 +101,15 @@
         </div>
       </div>
     </section>
-    <section>
+    <section id="models">
         <div class="container mb-5">
-            <h3 class="text-white text-center mt-2 mb-5 costum-h3">MODELS</h3>
+            <h3 class="text-dark text-center mt-2 mb-5 costum-h3">MODELS</h3>
             <div class="row">
                 
                 <div  class="col-lg-4 m">
-                    <div  class="imgbox bg-light rounded p-3">
+                    <div  class="imgbox bg-dark rounded p-3">
                         <div  class="carousel slide  " data-ride="carousel">
-                            <div id="modelimgsld" class="carousel-inner ">                                
+                            <div id="modelimgsld" class="carousel-inner modelimgsld ">                                
                               <div class="carousel-item active">                                      
                                   <img  src="images/models/ice crush/icecrush1.jpeg" class="d-block img-fluid" alt="...">
                               </div>
@@ -143,9 +130,9 @@
 
                 </div>  
                 <div  class="col-lg-4 m">
-                    <div  class="imgbox bg-light rounded p-3">
+                    <div  class="imgbox bg-dark rounded p-3">
                         <div  class="carousel slide  " data-ride="carousel">
-                            <div id="modelimgsld" class="carousel-inner ">                                
+                            <div id="modelimgsld" class="modelimgsld  carousel-inner ">                                
                               <div class="carousel-item active">                                      
                                   <img  src="images/models/long crush/img1.jpg" class="d-block img-fluid" alt="...">
                               </div>
@@ -169,88 +156,73 @@
 
                 </div>  
                 <div  class="col-lg-4 m">
-                    <div  class="imgbox bg-light rounded p-3">
+                    <div  class="imgbox  bg-dark  rounded p-3">
                         <div  class="carousel slide  " data-ride="carousel">
-                            <div id="modelimgsld" class="carousel-inner ">                                
+                            <div id="modelimgsld" class="carousel-inner modelimgsld">                                
                               <div class="carousel-item active">                                      
-                                  <img  src="images/models/zebra/img1.jpg" class="d-block img-fluid" alt="...">
+                                  <img  src="images/models/smooth silks/img1.jpg" class="d-block img-fluid" alt="...">
                               </div>
                               <div class="carousel-item">
-                                <img  src="images/models/zebra/img2.jpg" class="d-block img-fluid " alt="...">
+                                <img  src="images/models/smooth silks/img2.jpg" class="d-block img-fluid " alt="...">
                               </div>
                               <div class="carousel-item">
-                                <img  src="images/models/zebra/img3.jpg" class="d-block img-fluid" alt="...">
+                                <img  src="images/models/smooth silks/img3.jpg" class="d-block img-fluid" alt="...">
                               </div>
-                              <div class="carousel-item">
-                                <img  src="images/models/zebra/img4.jpg" class="d-block img-fluid" alt="...">
-                              </div>
-                              <div class="carousel-item">
-                                <img  src="images/models/zebra/img5.jpg" class="d-block img-fluid" alt="...">
-                              </div>
-                              <div class="carousel-item">
-                                <img  src="images/models/zebra/img6.jpg" class="d-block img-fluid" alt="...">
-                              </div>
+                             
 
                             </div>
                           </div>
                     </div>
-                    <h4 class="text-white text-center  mb-5 mt-2">ZEBRA</h4>
+                    <h4 class="text-white text-center  mb-5 mt-2">SMOOTH SILKS</h4>
 
                 </div>
                 
                 <div  class="col-lg-4 m">
-                    <div  class="imgbox bg-light rounded p-3">
+                    <div  class="imgbox  bg-dark  rounded p-3">
                         <div  class="carousel slide  " data-ride="carousel">
-                            <div id="modelimgsld" class="carousel-inner ">                                
+                            <div id="modelimgsld" class="carousel-inner modelimgsld ">                                
                               <div class="carousel-item active">                                      
-                                  <img  src="images/models/ice crush/icecrush1.jpeg" class="d-block img-fluid" alt="...">
+                                  <img  src="images/models/PATTERN SHEERS/img1.jpg" class="d-block img-fluid" alt="...">
                               </div>
                               <div class="carousel-item">
-                                <img  src="images/models/ice crush/icecrush2.jpeg" class="d-block img-fluid " alt="...">
+                                <img  src="images/models/PATTERN SHEERS/img2.jpg" class="d-block img-fluid " alt="...">
                               </div>
                               <div class="carousel-item">
-                                <img  src="images/models/ice crush/icecrush4.jpg" class="d-block img-fluid" alt="...">
+                                <img  src="images/models/PATTERN SHEERS/img3.jpg" class="d-block img-fluid" alt="...">
                               </div>
-                              <div class="carousel-item">
-                                <img  src="images/models/ice crush/icecrush5.jpg" class="d-block img-fluid" alt="...">
-                              </div>
+                              
 
                             </div>
                           </div>
                     </div>
-                    <h4 class="text-white text-center  mb-5 mt-2">ICE CRUSH</h4>
+                    <h4 class="text-white text-center  mb-5 mt-2">PATTERN SHEERS</h4>
 
                 </div>  
                 <div  class="col-lg-4 m">
-                    <div  class="imgbox bg-light rounded p-3">
+                    <div  class="imgbox  bg-dark  rounded p-3">
                         <div  class="carousel slide  " data-ride="carousel">
-                            <div id="modelimgsld" class="carousel-inner ">                                
+                            <div id="modelimgsld" class="carousel-inner modelimgsld">                                
                               <div class="carousel-item active">                                      
-                                  <img  src="images/models/long crush/img1.jpg" class="d-block img-fluid" alt="...">
+                                  <img  src="images/models/VELVET BLACKOUT/IMG1.jpg" class="d-block img-fluid" alt="...">
                               </div>
                               <div class="carousel-item">
-                                <img  src="images/models/long crush/img2.jpg" class="d-block img-fluid " alt="...">
+                                <img  src="images/models/VELVET BLACKOUT/IMG2.jpg" class="d-block img-fluid " alt="...">
                               </div>
                               <div class="carousel-item">
-                                <img  src="images/models/long crush/img3.jpg" class="d-block img-fluid" alt="...">
+                                <img  src="images/models/VELVET BLACKOUT/IMG4.jpg" class="d-block img-fluid" alt="...">
                               </div>
-                              <div class="carousel-item">
-                                <img  src="images/models/long crush/img4.jpg" class="d-block img-fluid" alt="...">
-                              </div>
-                              <div class="carousel-item">
-                                <img  src="images/models/long crush/brimg5.jpeg" class="d-block img-fluid" alt="...">
-                              </div>
+                              
 
                             </div>
                           </div>
                     </div>
-                    <h4 class="text-white text-center  mb-5 mt-2">LONG CRUSH</h4>
+                    <h4 class="text-white text-center  mb-5 mt-2">BLACKOUT</h4>
 
                 </div>  
                 <div  class="col-lg-4 m">
-                    <div  class="imgbox bg-light rounded p-3">
+                    <div  class="imgbox  bg-dark  rounded p-3">
                         <div  class="carousel slide  " data-ride="carousel">
-                            <div id="modelimgsld" class="carousel-inner ">                                
+                            <div id="modelimgsld" class="carousel-inner modelimgsld">                                
                               <div class="carousel-item active">                                      
                                   <img  src="images/models/zebra/img1.jpg" class="d-block img-fluid" alt="...">
                               </div>
@@ -261,11 +233,9 @@
                                 <img  src="images/models/zebra/img3.jpg" class="d-block img-fluid" alt="...">
                               </div>
                               <div class="carousel-item">
-                                <img  src="images/models/zebra/img4.jpg" class="d-block img-fluid" alt="...">
+                                <img  src="images/models/zebra/image4.jfif" class="d-block img-fluid" alt="...">
                               </div>
-                              <div class="carousel-item">
-                                <img  src="images/models/zebra/img5.jpg" class="d-block img-fluid" alt="...">
-                              </div>
+                             
                               <div class="carousel-item">
                                 <img  src="images/models/zebra/img6.jpg" class="d-block img-fluid" alt="...">
                               </div>
@@ -278,6 +248,48 @@
                 </div>
             </div>
         </div>
+    </section>
+    <section id="contact-us" class="contact-section p-5">
+      <div class="container">
+        <div class="row ">
+          <div class="col-lg-12">
+            <h3 class="text-dark  text-center mt-2 mb-5 costum-h3 ">CONTACT US</h3>
+          </div>
+            <div class="col-lg-6">
+              <div class="contact-box ">
+                <form action="">
+                  <div class=" form-group mt-4">
+                    <input type="text" class="form-control" placeholder="Name Here" name="name">
+                  </div>
+                  <div class="form-group mt-3">
+                    <input type="emai" class="form-control" placeholder="Email Here" name="email">
+                  </div>
+                  <div class="form-group mt-3">
+                    <input type="tel" class="form-control" placeholder="Mobile Number" name="mobile">
+                  </div>
+                  <div class="form-group mt-3">
+                    <textarea name="message" class="form-control rounded w-100%" placeholder="Message Here"  rows="5"></textarea>
+                  </div>
+                  <div class="form-group mt-3 text-center">
+                   <button type="submit" class="btn-outline-success rounded ">Send Message</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="address-box text-white mt-2">
+                <h4 class="mt-2">CURTAIN HOUSE</h4>
+                <P class="mt-2">Payyanangadi <br>
+                iringavoor road <br>
+                Tirur <br>
+                <a class="mt-2" href="tel:8714401118">87144 01118<br> </a> 
+                <a class="mt-2" href="tel:8593805048">85938 05048 </a>
+              </div>
+          </div>
+          
+          
+        </div>
+      </div>
     </section>
     
     
